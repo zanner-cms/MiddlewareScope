@@ -6,8 +6,6 @@
 const Middleware = require('zanner-cms-middleware').Middleware;
 const Scope = require('zanner-cms-scope').Scope;
 
-const AsyncFunction = require('./AsyncFunction').AsyncFunction;
-
 
 class MiddlewareScope extends Scope {
 

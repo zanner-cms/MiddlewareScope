@@ -17,16 +17,7 @@ const util = require('util');
 const Middleware = require('zanner-cms-middleware').Middleware;
 
 const MiddlewareScope = require('../MiddlewareScope').MiddlewareScope;
-const AsyncFunction = require('../AsyncFunction').AsyncFunction;
 
-
-describe('AsyncFunction', () => {
-
-	it('is async function class', () => {
-		expect(async function () {}).to.be.instanceof(AsyncFunction);
-	});
-
-});
 
 describe('MiddlewareScope', () => {
 
